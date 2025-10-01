@@ -3,9 +3,9 @@
 <h1>SecRandom & Class Widgets 联动</h1>
 
 
-[![星标](https://img.shields.io/github/stars/SECTL/SecRandom-Class-Widgets-plugin?style=for-the-badge&color=orange&label=星标)](https://github.com/SECTL/SecRandom-Class-Widgets-plugin)
-[![开源许可](https://img.shields.io/badge/license-MIT-darkgreen.svg?label=开源许可证&style=for-the-badge)](https://github.com/SECTL/SecRandom-Class-Widgets-plugin)
-[![下载量](https://img.shields.io/github/downloads/SECTL/SecRandom-Class-Widgets-plugin/total.svg?label=下载量&color=green&style=for-the-badge)](https://github.com/SECTL/SecRandom-Class-Widgets-plugin)
+[![星标](https://img.shields.io/github/stars/SECTL/cw-SecRandom-CW-plugin?style=for-the-badge&color=orange&label=星标)](https://github.com/SECTL/cw-SecRandom-CW-plugin)
+[![开源许可](https://img.shields.io/badge/license-MIT-darkgreen.svg?label=开源许可证&style=for-the-badge)](https://github.com/SECTL/cw-SecRandom-CW-plugin)
+[![下载量](https://img.shields.io/github/downloads/SECTL/cw-SecRandom-CW-plugin/total.svg?label=下载量&color=green&style=for-the-badge)](https://github.com/SECTL/cw-SecRandom-CW-plugin)
 
 </div>
 
