@@ -4,6 +4,7 @@ import tempfile
 import os 
 import json 
 import time 
+import sys 
 
 class Plugin(PluginBase):  # 插件类 
     def __init__(self, cw_contexts, method):  # 初始化 
