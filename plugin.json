@@ -1,13 +1,11 @@
 {
-    "name": "Class Widgets 插件模板",
-    "description": "这里是简介，用简短的语言描述插件的功能。",
-    "version": "1.0.0",
+    "name": "SecRandom CW联动",
+    "description": "让SecRandom与Class-Widgets联动，解锁许多实用的功能。",
+    "version": "0.1.0",
     "plugin_ver": 1,
-    "author": "你的名字",
+    "author": "SECTL",
     "settings": true,
-
-    "url": "https://github.com/{repo-owner}/{repo}",
+    "url": "https://github.com/SECTL/SecRandom-Class-Widgets-plugin",
     "branch": "main",
-
-    "update_date": "yyyy/mm/dd"
+    "update_date": "2025/10/02"
 }
