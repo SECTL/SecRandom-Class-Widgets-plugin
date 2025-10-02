@@ -37,6 +37,7 @@ class Plugin(PluginBase):  # 插件类
                     if msg_type == "selection_result":
                         # 处理抽选结果
                         name = data.get("name", "未知")
+                        display_time = data.get("display_time", 3)
                         time_str = data.get("time", "")
                         
                         # 构建通知内容
@@ -51,12 +52,13 @@ class Plugin(PluginBase):  # 插件类
                             subtitle=subtitle,
                             content=content,
                             icon=f'{self.plugin_dir}/assets/SecRandom.png',
-                            duration=3000
+                            duration=display_time * 1000
                         )
                     
                     elif msg_type == "reward_result":
                         # 处理抽奖结果
                         reward = data.get("reward", "未知奖品")
+                        display_time = data.get("display_time", 3)
                         time_str = data.get("time", "")
                         
                         # 构建通知内容
@@ -71,18 +73,19 @@ class Plugin(PluginBase):  # 插件类
                             subtitle=subtitle,
                             content=content,
                             icon=f'{self.plugin_dir}/assets/SecRandom.png',
-                            duration=3000
+                            duration=display_time * 1000
                         )
                     
                     else:
                         # 未知消息类型，尝试显示原始数据
+                        display_time = data.get("display_time", 3)
                         self.method.send_notification(
                             state=4,
                             title="收到消息",
                             subtitle="未知类型的消息",
                             content=str(data),
                             icon=f'{self.plugin_dir}/assets/SecRandom.png',
-                            duration=3000
+                            duration=display_time * 1000
                         )
                 
                 except Exception as e:

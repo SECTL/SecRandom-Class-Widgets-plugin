@@ -11,7 +11,7 @@
 
 ## 介绍
 
-本项目是一个 Class Widgets 插件，用于接收来自 SecRandom 的抽选和抽奖结果通知。通过文件系统作为通信媒介，SecRandom 可以将抽选结果和抽奖结果发送到 Class Widgets 中显示。
+本项目是一个 Class Widgets 插件，用于接收来自 SecRandom 的抽选和抽奖结果通知。
 
 ### 特性
 
